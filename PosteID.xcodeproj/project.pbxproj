@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E33E0B2929268756007AB68D /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E0B2829268756007AB68D /* Main.swift */; };
+		E356BBC32927E6FA00CEC414 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E356BBC22927E6FA00CEC414 /* Settings.swift */; };
 		E3954EDB292685FD00D288BD /* PosteIDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EDA292685FD00D288BD /* PosteIDApp.swift */; };
 		E3954EDD292685FD00D288BD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EDC292685FD00D288BD /* Login.swift */; };
 		E3954EDF292685FD00D288BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3954EDE292685FD00D288BD /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		E33E0B2829268756007AB68D /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		E356BBC22927E6FA00CEC414 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		E3954ED7292685FD00D288BD /* PosteID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PosteID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3954EDA292685FD00D288BD /* PosteIDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosteIDApp.swift; sourceTree = "<group>"; };
 		E3954EDC292685FD00D288BD /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				E3954EDA292685FD00D288BD /* PosteIDApp.swift */,
 				E3954EDC292685FD00D288BD /* Login.swift */,
 				E33E0B2829268756007AB68D /* Main.swift */,
+				E356BBC22927E6FA00CEC414 /* Settings.swift */,
 				E3954EDE292685FD00D288BD /* Assets.xcassets */,
 			);
 			path = PosteID;
@@ -258,6 +261,7 @@
 			files = (
 				E33E0B2929268756007AB68D /* Main.swift in Sources */,
 				E3954EDD292685FD00D288BD /* Login.swift in Sources */,
+				E356BBC32927E6FA00CEC414 /* Settings.swift in Sources */,
 				E3954EDB292685FD00D288BD /* PosteIDApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
