@@ -19,20 +19,9 @@ struct Main: View {
                     
                     HStack {
                         Spacer()
-                        Button(action: close) {
-                            Rectangle()
-                                .fill(.red)
-                                .opacity(0.9)
-                                .overlay() {
-                                    Text("⌫ Exit  ")
-                                        .foregroundColor(.white)
-                                        .font(.title3)
-                                        .fontWeight(.bold)
-                                }
-                                .frame(width: 100.0, height: 30.0)
-                                .cornerRadius(20.0)
-                                .shadow(radius: 9.0)
-                        }
+                        
+                        BackButton(label: "⌫ Exit  ", action: { exit(0) })
+                        
                         Spacer().frame(maxWidth: 20.0)
                     }
                     
@@ -63,10 +52,6 @@ struct Main: View {
                 AppDelegate.orientationLock = .all // Unlocking the rotation when leaving the view
             }
         }
-    }
-    
-    func close() {
-        exit(0)
     }
 }
 
