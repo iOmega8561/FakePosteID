@@ -21,7 +21,7 @@ struct PosteIDApp: App {
     
     var body: some Scene {
         WindowGroup {
-            Login()
+            LoginForm()
         }
     }
 }

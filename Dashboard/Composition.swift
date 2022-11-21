@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Main: View {
+struct Dashboard: View {
     @Environment(\.colorScheme) var colorScheme
     
     var body: some View {
@@ -57,6 +57,6 @@ struct Main: View {
 
 struct Main_Previews: PreviewProvider {
     static var previews: some View {
-        Main()
+        Dashboard()
     }
 }

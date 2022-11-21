@@ -146,6 +146,6 @@ struct TopControls: View {
 
 struct TopControls_Previews: PreviewProvider {
     static var previews: some View {
-        Main()
+        Dashboard()
     }
 }

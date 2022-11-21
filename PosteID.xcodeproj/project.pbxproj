@@ -10,13 +10,14 @@
 		E33E0B2929268756007AB68D /* Composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E0B2829268756007AB68D /* Composition.swift */; };
 		E356BBC32927E6FA00CEC414 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = E356BBC22927E6FA00CEC414 /* Details.swift */; };
 		E3954EDB292685FD00D288BD /* PosteIDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EDA292685FD00D288BD /* PosteIDApp.swift */; };
-		E3954EDD292685FD00D288BD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EDC292685FD00D288BD /* Login.swift */; };
 		E3954EDF292685FD00D288BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3954EDE292685FD00D288BD /* Assets.xcassets */; };
 		E3954EEC292685FE00D288BD /* PosteIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EEB292685FE00D288BD /* PosteIDTests.swift */; };
 		E3954EF6292685FE00D288BD /* PosteIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EF5292685FE00D288BD /* PosteIDUITests.swift */; };
 		E3954EF8292685FE00D288BD /* PosteIDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EF7292685FE00D288BD /* PosteIDUITestsLaunchTests.swift */; };
 		E3AEF48529281C1800CF8EB1 /* UpperSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AEF48429281C1800CF8EB1 /* UpperSection.swift */; };
 		E3AEF48729281C6A00CF8EB1 /* LowerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AEF48629281C6A00CF8EB1 /* LowerSection.swift */; };
+		E3AF8983292BB8FB0067C960 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AF8982292BB8FB0067C960 /* LoginForm.swift */; };
+		E3AF8985292BC56A0067C960 /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AF8984292BC56A0067C960 /* Controls.swift */; };
 		E3D5BEFF2928EBE7004AFF09 /* AuthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5BEFE2928EBE7004AFF09 /* AuthData.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +43,6 @@
 		E356BBC22927E6FA00CEC414 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
 		E3954ED7292685FD00D288BD /* PosteID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PosteID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3954EDA292685FD00D288BD /* PosteIDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosteIDApp.swift; sourceTree = "<group>"; };
-		E3954EDC292685FD00D288BD /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		E3954EDE292685FD00D288BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3954EE7292685FE00D288BD /* PosteIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PosteIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3954EEB292685FE00D288BD /* PosteIDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosteIDTests.swift; sourceTree = "<group>"; };
@@ -51,6 +51,8 @@
 		E3954EF7292685FE00D288BD /* PosteIDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosteIDUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E3AEF48429281C1800CF8EB1 /* UpperSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperSection.swift; sourceTree = "<group>"; };
 		E3AEF48629281C6A00CF8EB1 /* LowerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerSection.swift; sourceTree = "<group>"; };
+		E3AF8982292BB8FB0067C960 /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
+		E3AF8984292BC56A0067C960 /* Controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controls.swift; sourceTree = "<group>"; };
 		E3D5BEFE2928EBE7004AFF09 /* AuthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 		E3954ECE292685FC00D288BD = {
 			isa = PBXGroup;
 			children = (
+				E3AF8981292BB8E90067C960 /* Login */,
 				E3AEF48329281BFF00CF8EB1 /* Dashboard */,
 				E3954ED9292685FD00D288BD /* PosteID */,
 				E3954EEA292685FE00D288BD /* PosteIDTests */,
@@ -112,8 +115,6 @@
 			children = (
 				E33E0B2B292687F8007AB68D /* Preview Content */,
 				E3954EDA292685FD00D288BD /* PosteIDApp.swift */,
-				E3954EDC292685FD00D288BD /* Login.swift */,
-				E356BBC22927E6FA00CEC414 /* Details.swift */,
 				E3954EDE292685FD00D288BD /* Assets.xcassets */,
 			);
 			path = PosteID;
@@ -139,12 +140,22 @@
 		E3AEF48329281BFF00CF8EB1 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				E356BBC22927E6FA00CEC414 /* Details.swift */,
 				E33E0B2829268756007AB68D /* Composition.swift */,
 				E3AEF48429281C1800CF8EB1 /* UpperSection.swift */,
 				E3AEF48629281C6A00CF8EB1 /* LowerSection.swift */,
 				E3D5BEFE2928EBE7004AFF09 /* AuthData.swift */,
 			);
 			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		E3AF8981292BB8E90067C960 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E3AF8982292BB8FB0067C960 /* LoginForm.swift */,
+				E3AF8984292BC56A0067C960 /* Controls.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E33E0B2929268756007AB68D /* Composition.swift in Sources */,
-				E3954EDD292685FD00D288BD /* Login.swift in Sources */,
+				E3AF8983292BB8FB0067C960 /* LoginForm.swift in Sources */,
+				E3AF8985292BC56A0067C960 /* Controls.swift in Sources */,
 				E3AEF48729281C6A00CF8EB1 /* LowerSection.swift in Sources */,
 				E3D5BEFF2928EBE7004AFF09 /* AuthData.swift in Sources */,
 				E356BBC32927E6FA00CEC414 /* Details.swift in Sources */,
