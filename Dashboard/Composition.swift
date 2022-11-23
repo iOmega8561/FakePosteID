@@ -13,31 +13,38 @@ struct Dashboard: View {
     var body: some View {
         GeometryReader { geometry in
             NavigationStack {
-                VStack {
+                ZStack {
+                    /*if colorScheme != .dark {
+                        Color(red: 0.949, green: 0.949, blue: 0.971).ignoresSafeArea()
+                            
+                    }*/
                     
-                    Spacer().frame(maxHeight: 20.0)
-                    
-                    HStack {
+                    VStack {
+                        
+                        Spacer().frame(maxHeight: 20.0)
+                        
+                        HStack {
+                            Spacer()
+                            
+                            BackButton(label: "⌫ Exit  ", action: { exit(0) })
+                            
+                            Spacer().frame(maxWidth: 20.0)
+                        }
+                        
+                        TopInfo(colorScheme: colorScheme)
+                        
+                        if UIDevice.current.localizedModel == "iPhone" {
+                            
+                            TopControls().frame(maxWidth: 340.0).offset(y: -10.0)
+                        }
+                        
+                        Spacer().frame(maxHeight: UIDevice.current.localizedModel == "iPhone" ? 10.0:40.0)
+                        
+                        RecentAuths(colorScheme: colorScheme, geometry: geometry)
+                        
                         Spacer()
                         
-                        BackButton(label: "⌫ Exit  ", action: { exit(0) })
-                        
-                        Spacer().frame(maxWidth: 20.0)
                     }
-                    
-                    TopInfo(colorScheme: colorScheme)
-                    
-                    if UIDevice.current.localizedModel == "iPhone" {
-                        
-                        TopControls().frame(maxWidth: 340.0).offset(y: -10.0)
-                    }
-                    
-                    Spacer().frame(maxHeight: UIDevice.current.localizedModel == "iPhone" ? 10.0:40.0)
-                    
-                    RecentAuths(colorScheme: colorScheme, geometry: geometry)
-                    
-                    Spacer()
-                    
                 }
             }
         }

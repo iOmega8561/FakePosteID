@@ -56,7 +56,7 @@ struct LoginForm: View {
                         
                         Spacer()
                         
-                        if UIDevice.current.localizedModel != "iPhone" && proxy.size.height > 400.0 {
+                        if proxy.size.height > 400.0 || UIDevice.current.localizedModel == "iPhone" {
                             
                             if !isUnlocked {
                                 BeforeUnlock(isUnlocked: $isUnlocked)
