@@ -1,31 +1,12 @@
 //
-//  BottomControls.swift
+//  BeforeUnlock.swift
 //  PosteID
 //
-//  Created by Giuseppe Rocco on 21/11/22.
+//  Created by Giuseppe Rocco on 28/03/23.
 //
 
 import SwiftUI
 import LocalAuthentication
-
-struct AfterUnlock: View {
-    var body: some View {
-        NavigationLink(destination: Dashboard().navigationBarBackButtonHidden(true)) {
-            Rectangle()
-                .fill(Color("PosteYellow"))
-                .opacity(0.9)
-                .overlay() {
-                    Text("Continue to PosteID Dashboard")
-                        .foregroundColor(.black)
-                        .fontWeight(.bold)
-                        .font(.title3)
-                }
-                .frame(maxWidth: UIDevice.current.localizedModel == "iPhone" ? 350.0:370.0, maxHeight: 70.0)
-                .cornerRadius(20.0)
-                .shadow(color: Color("PosteYellow"), radius: 4)
-        }
-    }
-}
 
 struct BeforeUnlock: View {
     @Binding var isUnlocked: Bool
@@ -50,8 +31,6 @@ struct BeforeUnlock: View {
             }
         }
     }
-    
-    private func onlineSupport() {}
     
     var body: some View {
         HStack {
@@ -80,7 +59,7 @@ struct BeforeUnlock: View {
             
             Spacer().frame(maxWidth: (UIDevice.current.localizedModel == "iPhone" ? 15.0:40.0))
             
-            Button(action: onlineSupport) {
+            Button(action: {}) {
                 Rectangle()
                     .fill(Color("PosteYellow"))
                     .opacity(0.9)
@@ -106,8 +85,8 @@ struct BeforeUnlock: View {
     }
 }
 
-struct BottomControls_Previews: PreviewProvider {
+struct BeforeUnlock_Previews: PreviewProvider {
     static var previews: some View {
-        LoginForm()
+        BeforeUnlock(isUnlocked: .constant(true))
     }
 }

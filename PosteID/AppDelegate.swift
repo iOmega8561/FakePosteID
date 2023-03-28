@@ -1,10 +1,11 @@
 //
-//  PosteIDApp.swift
+//  AppDelegate.swift
 //  PosteID
 //
-//  Created by Giuseppe Rocco on 17/11/22.
+//  Created by Giuseppe Rocco on 28/03/23.
 //
 
+import Foundation
 import SwiftUI
 
 class AppDelegate: NSObject, UIApplicationDelegate {
@@ -12,16 +13,5 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     
     func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask{
         return AppDelegate.orientationLock
-    }
-}
-
-@main
-struct PosteIDApp: App {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-    
-    var body: some Scene {
-        WindowGroup {
-            LoginForm()
-        }
     }
 }
