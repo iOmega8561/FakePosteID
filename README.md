@@ -10,3 +10,9 @@ A basic description of it's features:
 - Optimized for iPadOS and iOS
 
 That's it really.
+
+# Screenshots
+
+Login page | Dashboard
+:-------------------------:|:-------------------------:
+![screen1](./Screenshots/screen1.png) | ![screen2](./Screenshots/screen2.png)
