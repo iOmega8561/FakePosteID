@@ -16,8 +16,8 @@
 		E3954EF8292685FE00D288BD /* PosteIDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EF7292685FE00D288BD /* PosteIDUITestsLaunchTests.swift */; };
 		E3AEF48529281C1800CF8EB1 /* UpperSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AEF48429281C1800CF8EB1 /* UpperSection.swift */; };
 		E3AEF48729281C6A00CF8EB1 /* LowerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AEF48629281C6A00CF8EB1 /* LowerSection.swift */; };
-		E3AF8983292BB8FB0067C960 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AF8982292BB8FB0067C960 /* LoginForm.swift */; };
 		E3AF8985292BC56A0067C960 /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AF8984292BC56A0067C960 /* Controls.swift */; };
+		E3BAF0DB292E602B00300959 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BAF0DA292E602B00300959 /* LoginForm.swift */; };
 		E3D5BEFF2928EBE7004AFF09 /* AuthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5BEFE2928EBE7004AFF09 /* AuthData.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,8 +51,8 @@
 		E3954EF7292685FE00D288BD /* PosteIDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosteIDUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E3AEF48429281C1800CF8EB1 /* UpperSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperSection.swift; sourceTree = "<group>"; };
 		E3AEF48629281C6A00CF8EB1 /* LowerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerSection.swift; sourceTree = "<group>"; };
-		E3AF8982292BB8FB0067C960 /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
 		E3AF8984292BC56A0067C960 /* Controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controls.swift; sourceTree = "<group>"; };
+		E3BAF0DA292E602B00300959 /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
 		E3D5BEFE2928EBE7004AFF09 /* AuthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,7 +152,7 @@
 		E3AF8981292BB8E90067C960 /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				E3AF8982292BB8FB0067C960 /* LoginForm.swift */,
+				E3BAF0DA292E602B00300959 /* LoginForm.swift */,
 				E3AF8984292BC56A0067C960 /* Controls.swift */,
 			);
 			path = Login;
@@ -288,7 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E33E0B2929268756007AB68D /* Composition.swift in Sources */,
-				E3AF8983292BB8FB0067C960 /* LoginForm.swift in Sources */,
+				E3BAF0DB292E602B00300959 /* LoginForm.swift in Sources */,
 				E3AF8985292BC56A0067C960 /* Controls.swift in Sources */,
 				E3AEF48729281C6A00CF8EB1 /* LowerSection.swift in Sources */,
 				E3D5BEFF2928EBE7004AFF09 /* AuthData.swift in Sources */,
