@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E33E0B2929268756007AB68D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E0B2829268756007AB68D /* Login.swift */; };
+		E33E0B2929268756007AB68D /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E0B2829268756007AB68D /* Main.swift */; };
 		E3954EDB292685FD00D288BD /* PosteIDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EDA292685FD00D288BD /* PosteIDApp.swift */; };
-		E3954EDD292685FD00D288BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EDC292685FD00D288BD /* ContentView.swift */; };
+		E3954EDD292685FD00D288BD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EDC292685FD00D288BD /* Login.swift */; };
 		E3954EDF292685FD00D288BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3954EDE292685FD00D288BD /* Assets.xcassets */; };
 		E3954EEC292685FE00D288BD /* PosteIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EEB292685FE00D288BD /* PosteIDTests.swift */; };
 		E3954EF6292685FE00D288BD /* PosteIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EF5292685FE00D288BD /* PosteIDUITests.swift */; };
@@ -34,10 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E33E0B2829268756007AB68D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		E33E0B2829268756007AB68D /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		E3954ED7292685FD00D288BD /* PosteID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PosteID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3954EDA292685FD00D288BD /* PosteIDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosteIDApp.swift; sourceTree = "<group>"; };
-		E3954EDC292685FD00D288BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E3954EDC292685FD00D288BD /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		E3954EDE292685FD00D288BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3954EE7292685FE00D288BD /* PosteIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PosteIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3954EEB292685FE00D288BD /* PosteIDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosteIDTests.swift; sourceTree = "<group>"; };
@@ -71,14 +71,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E33E0B2A2926877A007AB68D /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				E33E0B2829268756007AB68D /* Login.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		E33E0B2B292687F8007AB68D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,7 +81,6 @@
 		E3954ECE292685FC00D288BD = {
 			isa = PBXGroup;
 			children = (
-				E33E0B2A2926877A007AB68D /* Views */,
 				E3954ED9292685FD00D288BD /* PosteID */,
 				E3954EEA292685FE00D288BD /* PosteIDTests */,
 				E3954EF4292685FE00D288BD /* PosteIDUITests */,
@@ -112,7 +103,8 @@
 			children = (
 				E33E0B2B292687F8007AB68D /* Preview Content */,
 				E3954EDA292685FD00D288BD /* PosteIDApp.swift */,
-				E3954EDC292685FD00D288BD /* ContentView.swift */,
+				E3954EDC292685FD00D288BD /* Login.swift */,
+				E33E0B2829268756007AB68D /* Main.swift */,
 				E3954EDE292685FD00D288BD /* Assets.xcassets */,
 			);
 			path = PosteID;
@@ -264,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E33E0B2929268756007AB68D /* Login.swift in Sources */,
-				E3954EDD292685FD00D288BD /* ContentView.swift in Sources */,
+				E33E0B2929268756007AB68D /* Main.swift in Sources */,
+				E3954EDD292685FD00D288BD /* Login.swift in Sources */,
 				E3954EDB292685FD00D288BD /* PosteIDApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +420,7 @@
 				DEVELOPMENT_TEAM = T8HX5554JX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Security reason";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +450,7 @@
 				DEVELOPMENT_TEAM = T8HX5554JX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Security reason";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
