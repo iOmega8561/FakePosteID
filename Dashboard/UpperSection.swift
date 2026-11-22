@@ -7,6 +7,29 @@
 
 import SwiftUI
 
+struct BackButton: View {
+    var label: String
+    var action: ()->Void
+    
+    var body: some View {
+        
+        Button(action: action) {
+            Rectangle()
+                .fill(.red)
+                .opacity(0.9)
+                .overlay() {
+                    Text(label)
+                        .foregroundColor(.white)
+                        .font(.title3)
+                        .fontWeight(.bold)
+                }
+                .frame(width: 100.0, height: 30.0)
+                .cornerRadius(20.0)
+                .shadow(radius: 9.0)
+        }
+    }
+}
+
 struct TopInfo: View {
     var colorScheme: ColorScheme
     
@@ -51,9 +74,22 @@ struct TopInfo: View {
 }
 
 struct TopControls: View {
+    
+    @State var settingsShown: Bool = false
+    
+    func settingsToggle() -> Void {
+        settingsShown.toggle()
+        
+        return
+    }
+    
+    func qrScan() -> Void {
+        return
+    }
+    
     var body: some View {
         HStack {
-            NavigationLink(destination: EmptyView()) {
+            Button(action: qrScan) {
                 Rectangle()
                     .fill(Color("PosteYellow"))
                     .opacity(0.9)
@@ -78,20 +114,20 @@ struct TopControls: View {
             
             Spacer().frame(maxWidth: 40.0)
             
-            NavigationLink(destination: Settings()) {
+            Button(action: settingsToggle) {
                 Rectangle()
                     .fill(Color("PosteYellow"))
                     .opacity(0.9)
                     .overlay() {
                         HStack(spacing: 5) {
-                            Image(systemName: "gearshape.2.fill")
+                            Image(systemName: "info.circle" /*"gearshape.2.fill"*/)
                                 .renderingMode(.template)
                                 .resizable()
                                 .scaledToFit()
                                 .foregroundColor(.black)
                                 .frame(maxWidth: 50.0)
                             
-                            Text("Settings")
+                            Text("Account\nDetails")
                                 .foregroundColor(.black)
                                 .fontWeight(.bold)
                         }
@@ -99,6 +135,9 @@ struct TopControls: View {
                     .frame(maxWidth: 170.0, maxHeight: 70.0)
                     .cornerRadius(20.0)
                     .shadow(color: Color("PosteYellow"), radius: 4)
+                    .sheet(isPresented: $settingsShown, content: {
+                        Details()
+                    })
             }
             
         }
