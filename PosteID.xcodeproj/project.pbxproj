@@ -7,53 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E33E0B2929268756007AB68D /* Composition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E0B2829268756007AB68D /* Composition.swift */; };
-		E356BBC32927E6FA00CEC414 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = E356BBC22927E6FA00CEC414 /* Details.swift */; };
-		E3954EDB292685FD00D288BD /* PosteIDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EDA292685FD00D288BD /* PosteIDApp.swift */; };
+		E33E0B2929268756007AB68D /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33E0B2829268756007AB68D /* DashboardView.swift */; };
+		E356BBC32927E6FA00CEC414 /* AccountDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E356BBC22927E6FA00CEC414 /* AccountDetails.swift */; };
+		E3954EDB292685FD00D288BD /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EDA292685FD00D288BD /* Main.swift */; };
 		E3954EDF292685FD00D288BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3954EDE292685FD00D288BD /* Assets.xcassets */; };
-		E3954EEC292685FE00D288BD /* PosteIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EEB292685FE00D288BD /* PosteIDTests.swift */; };
-		E3954EF6292685FE00D288BD /* PosteIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EF5292685FE00D288BD /* PosteIDUITests.swift */; };
-		E3954EF8292685FE00D288BD /* PosteIDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3954EF7292685FE00D288BD /* PosteIDUITestsLaunchTests.swift */; };
-		E3AEF48529281C1800CF8EB1 /* UpperSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AEF48429281C1800CF8EB1 /* UpperSection.swift */; };
-		E3AEF48729281C6A00CF8EB1 /* LowerSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AEF48629281C6A00CF8EB1 /* LowerSection.swift */; };
-		E3AF8985292BC56A0067C960 /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AF8984292BC56A0067C960 /* Controls.swift */; };
+		E3AEF48529281C1800CF8EB1 /* LastLoginInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AEF48429281C1800CF8EB1 /* LastLoginInfo.swift */; };
+		E3AEF48729281C6A00CF8EB1 /* AuthList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AEF48629281C6A00CF8EB1 /* AuthList.swift */; };
 		E3BAF0DB292E602B00300959 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BAF0DA292E602B00300959 /* LoginForm.swift */; };
-		E3D5BEFF2928EBE7004AFF09 /* AuthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5BEFE2928EBE7004AFF09 /* AuthData.swift */; };
+		E3DA647429D32FF500DC4889 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA647329D32FF500DC4889 /* Models.swift */; };
+		E3DA647729D3300B00DC4889 /* FakeValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA647629D3300B00DC4889 /* FakeValues.swift */; };
+		E3DA647929D3306200DC4889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA647829D3306200DC4889 /* AppDelegate.swift */; };
+		E3DA647C29D335C500DC4889 /* AuthEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA647B29D335C500DC4889 /* AuthEntry.swift */; };
+		E3DA647F29D33B2200DC4889 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA647E29D33B2200DC4889 /* BackButton.swift */; };
+		E3DA648129D33B5700DC4889 /* TopControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA648029D33B5700DC4889 /* TopControls.swift */; };
+		E3DA648529D33D6200DC4889 /* BeforeUnlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA648429D33D6200DC4889 /* BeforeUnlock.swift */; };
+		E3DA648729D33DDB00DC4889 /* Biometrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA648629D33DDB00DC4889 /* Biometrics.swift */; };
+		E3DA648929D3405700DC4889 /* AfterUnlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA648829D3405700DC4889 /* AfterUnlock.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E3954EE8292685FE00D288BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E3954ECF292685FC00D288BD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E3954ED6292685FD00D288BD;
-			remoteInfo = PosteID;
-		};
-		E3954EF2292685FE00D288BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E3954ECF292685FC00D288BD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E3954ED6292685FD00D288BD;
-			remoteInfo = PosteID;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		E33E0B2829268756007AB68D /* Composition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composition.swift; sourceTree = "<group>"; };
-		E356BBC22927E6FA00CEC414 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		E33E0B2829268756007AB68D /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		E356BBC22927E6FA00CEC414 /* AccountDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetails.swift; sourceTree = "<group>"; };
 		E3954ED7292685FD00D288BD /* PosteID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PosteID.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3954EDA292685FD00D288BD /* PosteIDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosteIDApp.swift; sourceTree = "<group>"; };
+		E3954EDA292685FD00D288BD /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		E3954EDE292685FD00D288BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E3954EE7292685FE00D288BD /* PosteIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PosteIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3954EEB292685FE00D288BD /* PosteIDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosteIDTests.swift; sourceTree = "<group>"; };
-		E3954EF1292685FE00D288BD /* PosteIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PosteIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3954EF5292685FE00D288BD /* PosteIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosteIDUITests.swift; sourceTree = "<group>"; };
-		E3954EF7292685FE00D288BD /* PosteIDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosteIDUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		E3AEF48429281C1800CF8EB1 /* UpperSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperSection.swift; sourceTree = "<group>"; };
-		E3AEF48629281C6A00CF8EB1 /* LowerSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowerSection.swift; sourceTree = "<group>"; };
-		E3AF8984292BC56A0067C960 /* Controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controls.swift; sourceTree = "<group>"; };
+		E3AEF48429281C1800CF8EB1 /* LastLoginInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastLoginInfo.swift; sourceTree = "<group>"; };
+		E3AEF48629281C6A00CF8EB1 /* AuthList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthList.swift; sourceTree = "<group>"; };
 		E3BAF0DA292E602B00300959 /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
-		E3D5BEFE2928EBE7004AFF09 /* AuthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthData.swift; sourceTree = "<group>"; };
+		E3DA647329D32FF500DC4889 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E3DA647629D3300B00DC4889 /* FakeValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeValues.swift; sourceTree = "<group>"; };
+		E3DA647829D3306200DC4889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3DA647B29D335C500DC4889 /* AuthEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthEntry.swift; sourceTree = "<group>"; };
+		E3DA647E29D33B2200DC4889 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		E3DA648029D33B5700DC4889 /* TopControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopControls.swift; sourceTree = "<group>"; };
+		E3DA648429D33D6200DC4889 /* BeforeUnlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeUnlock.swift; sourceTree = "<group>"; };
+		E3DA648629D33DDB00DC4889 /* Biometrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Biometrics.swift; sourceTree = "<group>"; };
+		E3DA648829D3405700DC4889 /* AfterUnlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterUnlock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,38 +53,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3954EE4292685FE00D288BD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3954EEE292685FE00D288BD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E33E0B2B292687F8007AB68D /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		E3954ECE292685FC00D288BD = {
 			isa = PBXGroup;
 			children = (
-				E3AF8981292BB8E90067C960 /* Login */,
-				E3AEF48329281BFF00CF8EB1 /* Dashboard */,
 				E3954ED9292685FD00D288BD /* PosteID */,
-				E3954EEA292685FE00D288BD /* PosteIDTests */,
-				E3954EF4292685FE00D288BD /* PosteIDUITests */,
 				E3954ED8292685FD00D288BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,8 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				E3954ED7292685FD00D288BD /* PosteID.app */,
-				E3954EE7292685FE00D288BD /* PosteIDTests.xctest */,
-				E3954EF1292685FE00D288BD /* PosteIDUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,38 +75,24 @@
 		E3954ED9292685FD00D288BD /* PosteID */ = {
 			isa = PBXGroup;
 			children = (
-				E33E0B2B292687F8007AB68D /* Preview Content */,
-				E3954EDA292685FD00D288BD /* PosteIDApp.swift */,
+				E3954EDA292685FD00D288BD /* Main.swift */,
+				E3DA647829D3306200DC4889 /* AppDelegate.swift */,
+				E356BBC22927E6FA00CEC414 /* AccountDetails.swift */,
+				E3AF8981292BB8E90067C960 /* Login */,
+				E3AEF48329281BFF00CF8EB1 /* Dashboard */,
+				E3DA647229D32FBA00DC4889 /* DataHandling */,
 				E3954EDE292685FD00D288BD /* Assets.xcassets */,
 			);
 			path = PosteID;
 			sourceTree = "<group>";
 		};
-		E3954EEA292685FE00D288BD /* PosteIDTests */ = {
-			isa = PBXGroup;
-			children = (
-				E3954EEB292685FE00D288BD /* PosteIDTests.swift */,
-			);
-			path = PosteIDTests;
-			sourceTree = "<group>";
-		};
-		E3954EF4292685FE00D288BD /* PosteIDUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E3954EF5292685FE00D288BD /* PosteIDUITests.swift */,
-				E3954EF7292685FE00D288BD /* PosteIDUITestsLaunchTests.swift */,
-			);
-			path = PosteIDUITests;
-			sourceTree = "<group>";
-		};
 		E3AEF48329281BFF00CF8EB1 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
-				E356BBC22927E6FA00CEC414 /* Details.swift */,
-				E33E0B2829268756007AB68D /* Composition.swift */,
-				E3AEF48429281C1800CF8EB1 /* UpperSection.swift */,
-				E3AEF48629281C6A00CF8EB1 /* LowerSection.swift */,
-				E3D5BEFE2928EBE7004AFF09 /* AuthData.swift */,
+				E33E0B2829268756007AB68D /* DashboardView.swift */,
+				E3AEF48429281C1800CF8EB1 /* LastLoginInfo.swift */,
+				E3DA647D29D33B0C00DC4889 /* Controls */,
+				E3DA647A29D331FD00DC4889 /* RecentAuths */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -152,10 +100,47 @@
 		E3AF8981292BB8E90067C960 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				E3DA648329D33D4100DC4889 /* Controls */,
 				E3BAF0DA292E602B00300959 /* LoginForm.swift */,
-				E3AF8984292BC56A0067C960 /* Controls.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		E3DA647229D32FBA00DC4889 /* DataHandling */ = {
+			isa = PBXGroup;
+			children = (
+				E3DA647329D32FF500DC4889 /* Models.swift */,
+				E3DA647629D3300B00DC4889 /* FakeValues.swift */,
+				E3DA648629D33DDB00DC4889 /* Biometrics.swift */,
+			);
+			path = DataHandling;
+			sourceTree = "<group>";
+		};
+		E3DA647A29D331FD00DC4889 /* RecentAuths */ = {
+			isa = PBXGroup;
+			children = (
+				E3DA647B29D335C500DC4889 /* AuthEntry.swift */,
+				E3AEF48629281C6A00CF8EB1 /* AuthList.swift */,
+			);
+			path = RecentAuths;
+			sourceTree = "<group>";
+		};
+		E3DA647D29D33B0C00DC4889 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				E3DA647E29D33B2200DC4889 /* BackButton.swift */,
+				E3DA648029D33B5700DC4889 /* TopControls.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		E3DA648329D33D4100DC4889 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				E3DA648429D33D6200DC4889 /* BeforeUnlock.swift */,
+				E3DA648829D3405700DC4889 /* AfterUnlock.swift */,
+			);
+			path = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,42 +163,6 @@
 			productReference = E3954ED7292685FD00D288BD /* PosteID.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E3954EE6292685FE00D288BD /* PosteIDTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E3954EFE292685FE00D288BD /* Build configuration list for PBXNativeTarget "PosteIDTests" */;
-			buildPhases = (
-				E3954EE3292685FE00D288BD /* Sources */,
-				E3954EE4292685FE00D288BD /* Frameworks */,
-				E3954EE5292685FE00D288BD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E3954EE9292685FE00D288BD /* PBXTargetDependency */,
-			);
-			name = PosteIDTests;
-			productName = PosteIDTests;
-			productReference = E3954EE7292685FE00D288BD /* PosteIDTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E3954EF0292685FE00D288BD /* PosteIDUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E3954F01292685FE00D288BD /* Build configuration list for PBXNativeTarget "PosteIDUITests" */;
-			buildPhases = (
-				E3954EED292685FE00D288BD /* Sources */,
-				E3954EEE292685FE00D288BD /* Frameworks */,
-				E3954EEF292685FE00D288BD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E3954EF3292685FE00D288BD /* PBXTargetDependency */,
-			);
-			name = PosteIDUITests;
-			productName = PosteIDUITests;
-			productReference = E3954EF1292685FE00D288BD /* PosteIDUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -226,14 +175,6 @@
 				TargetAttributes = {
 					E3954ED6292685FD00D288BD = {
 						CreatedOnToolsVersion = 14.0.1;
-					};
-					E3954EE6292685FE00D288BD = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = E3954ED6292685FD00D288BD;
-					};
-					E3954EF0292685FE00D288BD = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = E3954ED6292685FD00D288BD;
 					};
 				};
 			};
@@ -251,8 +192,6 @@
 			projectRoot = "";
 			targets = (
 				E3954ED6292685FD00D288BD /* PosteID */,
-				E3954EE6292685FE00D288BD /* PosteIDTests */,
-				E3954EF0292685FE00D288BD /* PosteIDUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,20 +205,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3954EE5292685FE00D288BD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3954EEF292685FE00D288BD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -287,48 +212,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E33E0B2929268756007AB68D /* Composition.swift in Sources */,
+				E3DA647929D3306200DC4889 /* AppDelegate.swift in Sources */,
+				E33E0B2929268756007AB68D /* DashboardView.swift in Sources */,
 				E3BAF0DB292E602B00300959 /* LoginForm.swift in Sources */,
-				E3AF8985292BC56A0067C960 /* Controls.swift in Sources */,
-				E3AEF48729281C6A00CF8EB1 /* LowerSection.swift in Sources */,
-				E3D5BEFF2928EBE7004AFF09 /* AuthData.swift in Sources */,
-				E356BBC32927E6FA00CEC414 /* Details.swift in Sources */,
-				E3AEF48529281C1800CF8EB1 /* UpperSection.swift in Sources */,
-				E3954EDB292685FD00D288BD /* PosteIDApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3954EE3292685FE00D288BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3954EEC292685FE00D288BD /* PosteIDTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E3954EED292685FE00D288BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3954EF6292685FE00D288BD /* PosteIDUITests.swift in Sources */,
-				E3954EF8292685FE00D288BD /* PosteIDUITestsLaunchTests.swift in Sources */,
+				E3DA648529D33D6200DC4889 /* BeforeUnlock.swift in Sources */,
+				E3DA648129D33B5700DC4889 /* TopControls.swift in Sources */,
+				E3AEF48729281C6A00CF8EB1 /* AuthList.swift in Sources */,
+				E3DA647729D3300B00DC4889 /* FakeValues.swift in Sources */,
+				E3DA647C29D335C500DC4889 /* AuthEntry.swift in Sources */,
+				E3DA648729D33DDB00DC4889 /* Biometrics.swift in Sources */,
+				E3DA648929D3405700DC4889 /* AfterUnlock.swift in Sources */,
+				E356BBC32927E6FA00CEC414 /* AccountDetails.swift in Sources */,
+				E3DA647F29D33B2200DC4889 /* BackButton.swift in Sources */,
+				E3DA647429D32FF500DC4889 /* Models.swift in Sources */,
+				E3AEF48529281C1800CF8EB1 /* LastLoginInfo.swift in Sources */,
+				E3954EDB292685FD00D288BD /* Main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E3954EE9292685FE00D288BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E3954ED6292685FD00D288BD /* PosteID */;
-			targetProxy = E3954EE8292685FE00D288BD /* PBXContainerItemProxy */;
-		};
-		E3954EF3292685FE00D288BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E3954ED6292685FD00D288BD /* PosteID */;
-			targetProxy = E3954EF2292685FE00D288BD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E3954EF9292685FE00D288BD /* Debug */ = {
@@ -452,7 +354,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PosteID/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = T8HX5554JX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -483,7 +385,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PosteID/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = T8HX5554JX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -507,82 +409,6 @@
 			};
 			name = Release;
 		};
-		E3954EFF292685FE00D288BD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T8HX5554JX;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.PosteIDTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PosteID.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PosteID";
-			};
-			name = Debug;
-		};
-		E3954F00292685FE00D288BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T8HX5554JX;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.PosteIDTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PosteID.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PosteID";
-			};
-			name = Release;
-		};
-		E3954F02292685FE00D288BD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T8HX5554JX;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.PosteIDUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PosteID;
-			};
-			name = Debug;
-		};
-		E3954F03292685FE00D288BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T8HX5554JX;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.PosteIDUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PosteID;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -600,24 +426,6 @@
 			buildConfigurations = (
 				E3954EFC292685FE00D288BD /* Debug */,
 				E3954EFD292685FE00D288BD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E3954EFE292685FE00D288BD /* Build configuration list for PBXNativeTarget "PosteIDTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E3954EFF292685FE00D288BD /* Debug */,
-				E3954F00292685FE00D288BD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E3954F01292685FE00D288BD /* Build configuration list for PBXNativeTarget "PosteIDUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E3954F02292685FE00D288BD /* Debug */,
-				E3954F03292685FE00D288BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

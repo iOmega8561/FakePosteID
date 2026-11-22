@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Dashboard: View {
+struct DashboardView: View {
     @Environment(\.colorScheme) var colorScheme
     
     var body: some View {
@@ -31,7 +31,7 @@ struct Dashboard: View {
                             Spacer().frame(maxWidth: 20.0)
                         }
                         
-                        TopInfo(colorScheme: colorScheme)
+                        LastLoginInfo(colorScheme: colorScheme)
                         
                         if UIDevice.current.localizedModel == "iPhone" {
                             
@@ -40,7 +40,7 @@ struct Dashboard: View {
                         
                         Spacer().frame(maxHeight: UIDevice.current.localizedModel == "iPhone" ? 10.0:40.0)
                         
-                        RecentAuths(colorScheme: colorScheme, geometry: geometry)
+                        AuthList(colorScheme: colorScheme, geometry: geometry)
                         
                         Spacer()
                         
@@ -62,8 +62,8 @@ struct Dashboard: View {
     }
 }
 
-struct Main_Previews: PreviewProvider {
+struct DashboardView_Previews: PreviewProvider {
     static var previews: some View {
-        Dashboard()
+        DashboardView()
     }
 }
