@@ -30,13 +30,13 @@ struct LoginForm: View {
                         Rectangle()
                             .cornerRadius(10.0)
                             .foregroundColor(Color("PosteYellow"))
-                            .frame(maxWidth: 340.0, maxHeight: 110.0)
+                            .frame(maxWidth: UIDevice.current.localizedModel == "iPhone" ? 340.0:360.0, maxHeight: UIDevice.current.localizedModel == "iPhone" ? 110.0:120.0)
                             .shadow(color: Color("PosteYellow"), radius: 6.0)
                             .overlay() {
                                 Image("PosteIDLogo")
                                     .resizable()
                                     .scaledToFit()
-                                    .frame(maxWidth: 320.0)
+                                    .frame(maxWidth: UIDevice.current.localizedModel == "iPhone" ? 320.0:340.0)
                             }
                         
                         Spacer()

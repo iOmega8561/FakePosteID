@@ -20,7 +20,7 @@ struct AfterUnlock: View {
                         .fontWeight(.bold)
                         .font(.title3)
                 }
-                .frame(maxWidth: 340.0, maxHeight: 70.0)
+                .frame(maxWidth: UIDevice.current.localizedModel == "iPhone" ? 350.0:370.0, maxHeight: 70.0)
                 .cornerRadius(20.0)
                 .shadow(color: Color("PosteYellow"), radius: 4)
         }
