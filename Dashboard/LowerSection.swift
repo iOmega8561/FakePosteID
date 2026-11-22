@@ -118,6 +118,6 @@ struct RecentAuths: View {
 
 struct RecentAuths_Previews: PreviewProvider {
     static var previews: some View {
-        Main()
+        Dashboard()
     }
 }
