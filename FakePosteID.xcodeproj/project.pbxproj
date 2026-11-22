@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		E33E0B2829268756007AB68D /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		E356BBC22927E6FA00CEC414 /* AccountDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountDetails.swift; sourceTree = "<group>"; };
-		E3954ED7292685FD00D288BD /* PosteID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PosteID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3954ED7292685FD00D288BD /* FakePosteID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FakePosteID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3954EDA292685FD00D288BD /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		E3954EDE292685FD00D288BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3AEF48429281C1800CF8EB1 /* LastLoginInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastLoginInfo.swift; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		E3954ECE292685FC00D288BD = {
 			isa = PBXGroup;
 			children = (
-				E3954ED9292685FD00D288BD /* PosteID */,
+				E3954ED9292685FD00D288BD /* FakePosteID */,
 				E3954ED8292685FD00D288BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,12 +67,12 @@
 		E3954ED8292685FD00D288BD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E3954ED7292685FD00D288BD /* PosteID.app */,
+				E3954ED7292685FD00D288BD /* FakePosteID.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E3954ED9292685FD00D288BD /* PosteID */ = {
+		E3954ED9292685FD00D288BD /* FakePosteID */ = {
 			isa = PBXGroup;
 			children = (
 				E3954EDA292685FD00D288BD /* Main.swift */,
@@ -83,7 +83,7 @@
 				E3DA647229D32FBA00DC4889 /* DataHandling */,
 				E3954EDE292685FD00D288BD /* Assets.xcassets */,
 			);
-			path = PosteID;
+			path = FakePosteID;
 			sourceTree = "<group>";
 		};
 		E3AEF48329281BFF00CF8EB1 /* Dashboard */ = {
@@ -146,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E3954ED6292685FD00D288BD /* PosteID */ = {
+		E3954ED6292685FD00D288BD /* FakePosteID */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3954EFB292685FE00D288BD /* Build configuration list for PBXNativeTarget "PosteID" */;
+			buildConfigurationList = E3954EFB292685FE00D288BD /* Build configuration list for PBXNativeTarget "FakePosteID" */;
 			buildPhases = (
 				E3954ED3292685FD00D288BD /* Sources */,
 				E3954ED4292685FD00D288BD /* Frameworks */,
@@ -158,9 +158,9 @@
 			);
 			dependencies = (
 			);
-			name = PosteID;
+			name = FakePosteID;
 			productName = PosteID;
-			productReference = E3954ED7292685FD00D288BD /* PosteID.app */;
+			productReference = E3954ED7292685FD00D288BD /* FakePosteID.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -178,7 +178,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E3954ED2292685FC00D288BD /* Build configuration list for PBXProject "PosteID" */;
+			buildConfigurationList = E3954ED2292685FC00D288BD /* Build configuration list for PBXProject "FakePosteID" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -191,7 +191,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E3954ED6292685FD00D288BD /* PosteID */,
+				E3954ED6292685FD00D288BD /* FakePosteID */,
 			);
 		};
 /* End PBXProject section */
@@ -412,7 +412,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E3954ED2292685FC00D288BD /* Build configuration list for PBXProject "PosteID" */ = {
+		E3954ED2292685FC00D288BD /* Build configuration list for PBXProject "FakePosteID" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3954EF9292685FE00D288BD /* Debug */,
@@ -421,7 +421,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3954EFB292685FE00D288BD /* Build configuration list for PBXNativeTarget "PosteID" */ = {
+		E3954EFB292685FE00D288BD /* Build configuration list for PBXNativeTarget "FakePosteID" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3954EFC292685FE00D288BD /* Debug */,
