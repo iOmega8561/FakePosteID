@@ -1,6 +1,11 @@
 //
-//  RecentAuths.swift
-//  PosteID
+//  Copyright (c) 2025 Giuseppe Rocco
+//  Licensed under the MIT License. See the LICENSE file for details.
+//
+//  -----------------------------------------------------------------
+//
+//  AuthList.swift
+//  FakePosteID
 //
 //  Created by Giuseppe Rocco on 18/11/22.
 //

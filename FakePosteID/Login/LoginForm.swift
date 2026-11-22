@@ -1,6 +1,11 @@
 //
-//  LoginForm2.swift
-//  PosteID
+//  Copyright (c) 2025 Giuseppe Rocco
+//  Licensed under the MIT License. See the LICENSE file for details.
+//
+//  -----------------------------------------------------------------
+//
+//  LoginForm.swift
+//  FakePosteID
 //
 //  Created by Giuseppe Rocco on 23/11/22.
 //

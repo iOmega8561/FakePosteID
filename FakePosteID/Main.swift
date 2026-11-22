@@ -1,6 +1,11 @@
 //
-//  PosteIDApp.swift
-//  PosteID
+//  Copyright (c) 2025 Giuseppe Rocco
+//  Licensed under the MIT License. See the LICENSE file for details.
+//
+//  -----------------------------------------------------------------
+//
+//  Main.swift
+//  FakePosteID
 //
 //  Created by Giuseppe Rocco on 17/11/22.
 //
